@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C9A48F1799506000B3BE3C /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C9A48E1799506000B3BE3C /* mail.png */; };
+		18FA85861799486500C72991 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FA85851799486500C72991 /* UIKit.framework */; };
+		18FA85881799486500C72991 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FA85871799486500C72991 /* Foundation.framework */; };
+		18FA858A1799486500C72991 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FA85891799486500C72991 /* CoreGraphics.framework */; };
+		18FA85901799486500C72991 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18FA858E1799486500C72991 /* InfoPlist.strings */; };
+		18FA85921799486500C72991 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA85911799486500C72991 /* main.m */; };
+		18FA85961799486500C72991 /* PostAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA85951799486500C72991 /* PostAppDelegate.m */; };
+		18FA85981799486500C72991 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FA85971799486500C72991 /* Default.png */; };
+		18FA859A1799486500C72991 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FA85991799486500C72991 /* Default@2x.png */; };
+		18FA859C1799486500C72991 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FA859B1799486500C72991 /* Default-568h@2x.png */; };
+		18FA859F1799486500C72991 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FA859D1799486500C72991 /* MainStoryboard.storyboard */; };
+		18FA85A21799486500C72991 /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA85A11799486500C72991 /* PostViewController.m */; };
+		18FA85A91799490400C72991 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FA85A81799490400C72991 /* Social.framework */; };
+		18FA85AB1799490B00C72991 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FA85AA1799490B00C72991 /* MessageUI.framework */; };
+		18FA85AD179949B100C72991 /* binary.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18FA85AC179949B100C72991 /* binary.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18C9A48E1799506000B3BE3C /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		18FA85821799486500C72991 /* MailMessageSocialDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailMessageSocialDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FA85851799486500C72991 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18FA85871799486500C72991 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18FA85891799486500C72991 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18FA858D1799486500C72991 /* MailMessageSocialDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MailMessageSocialDemo-Info.plist"; sourceTree = "<group>"; };
+		18FA858F1799486500C72991 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18FA85911799486500C72991 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18FA85931799486500C72991 /* MailMessageSocialDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MailMessageSocialDemo-Prefix.pch"; sourceTree = "<group>"; };
+		18FA85941799486500C72991 /* PostAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostAppDelegate.h; sourceTree = "<group>"; };
+		18FA85951799486500C72991 /* PostAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostAppDelegate.m; sourceTree = "<group>"; };
+		18FA85971799486500C72991 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		18FA85991799486500C72991 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		18FA859B1799486500C72991 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		18FA859E1799486500C72991 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		18FA85A01799486500C72991 /* PostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
+		18FA85A11799486500C72991 /* PostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		18FA85A81799490400C72991 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		18FA85AA1799490B00C72991 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		18FA85AC179949B100C72991 /* binary.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = binary.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FA857F1799486500C72991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FA85AB1799490B00C72991 /* MessageUI.framework in Frameworks */,
+				18FA85A91799490400C72991 /* Social.framework in Frameworks */,
+				18FA85861799486500C72991 /* UIKit.framework in Frameworks */,
+				18FA85881799486500C72991 /* Foundation.framework in Frameworks */,
+				18FA858A1799486500C72991 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FA85791799486500C72991 = {
+			isa = PBXGroup;
+			children = (
+				18C9A48E1799506000B3BE3C /* mail.png */,
+				18FA858B1799486500C72991 /* MailMessageSocialDemo */,
+				18FA85841799486500C72991 /* Frameworks */,
+				18FA85831799486500C72991 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FA85831799486500C72991 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FA85821799486500C72991 /* MailMessageSocialDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FA85841799486500C72991 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18FA85AA1799490B00C72991 /* MessageUI.framework */,
+				18FA85A81799490400C72991 /* Social.framework */,
+				18FA85851799486500C72991 /* UIKit.framework */,
+				18FA85871799486500C72991 /* Foundation.framework */,
+				18FA85891799486500C72991 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18FA858B1799486500C72991 /* MailMessageSocialDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18FA85941799486500C72991 /* PostAppDelegate.h */,
+				18FA85951799486500C72991 /* PostAppDelegate.m */,
+				18FA859D1799486500C72991 /* MainStoryboard.storyboard */,
+				18FA85A01799486500C72991 /* PostViewController.h */,
+				18FA85A11799486500C72991 /* PostViewController.m */,
+				18FA858C1799486500C72991 /* Supporting Files */,
+			);
+			path = MailMessageSocialDemo;
+			sourceTree = "<group>";
+		};
+		18FA858C1799486500C72991 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FA85AC179949B100C72991 /* binary.jpg */,
+				18FA858D1799486500C72991 /* MailMessageSocialDemo-Info.plist */,
+				18FA858E1799486500C72991 /* InfoPlist.strings */,
+				18FA85911799486500C72991 /* main.m */,
+				18FA85931799486500C72991 /* MailMessageSocialDemo-Prefix.pch */,
+				18FA85971799486500C72991 /* Default.png */,
+				18FA85991799486500C72991 /* Default@2x.png */,
+				18FA859B1799486500C72991 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FA85811799486500C72991 /* MailMessageSocialDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FA85A51799486500C72991 /* Build configuration list for PBXNativeTarget "MailMessageSocialDemo" */;
+			buildPhases = (
+				18FA857E1799486500C72991 /* Sources */,
+				18FA857F1799486500C72991 /* Frameworks */,
+				18FA85801799486500C72991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MailMessageSocialDemo;
+			productName = MailMessageSocialDemo;
+			productReference = 18FA85821799486500C72991 /* MailMessageSocialDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FA857A1799486500C72991 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Post;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Apple;
+			};
+			buildConfigurationList = 18FA857D1799486500C72991 /* Build configuration list for PBXProject "MailMessageSocialDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18FA85791799486500C72991;
+			productRefGroup = 18FA85831799486500C72991 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FA85811799486500C72991 /* MailMessageSocialDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FA85801799486500C72991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FA85901799486500C72991 /* InfoPlist.strings in Resources */,
+				18FA85981799486500C72991 /* Default.png in Resources */,
+				18FA859A1799486500C72991 /* Default@2x.png in Resources */,
+				18FA859C1799486500C72991 /* Default-568h@2x.png in Resources */,
+				18FA859F1799486500C72991 /* MainStoryboard.storyboard in Resources */,
+				18FA85AD179949B100C72991 /* binary.jpg in Resources */,
+				18C9A48F1799506000B3BE3C /* mail.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FA857E1799486500C72991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FA85921799486500C72991 /* main.m in Sources */,
+				18FA85961799486500C72991 /* PostAppDelegate.m in Sources */,
+				18FA85A21799486500C72991 /* PostViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18FA858E1799486500C72991 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FA858F1799486500C72991 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18FA859D1799486500C72991 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FA859E1799486500C72991 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FA85A31799486500C72991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18FA85A41799486500C72991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FA85A61799486500C72991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MailMessageSocialDemo/MailMessageSocialDemo-Prefix.pch";
+				INFOPLIST_FILE = "MailMessageSocialDemo/MailMessageSocialDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18FA85A71799486500C72991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MailMessageSocialDemo/MailMessageSocialDemo-Prefix.pch";
+				INFOPLIST_FILE = "MailMessageSocialDemo/MailMessageSocialDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FA857D1799486500C72991 /* Build configuration list for PBXProject "MailMessageSocialDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FA85A31799486500C72991 /* Debug */,
+				18FA85A41799486500C72991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FA85A51799486500C72991 /* Build configuration list for PBXNativeTarget "MailMessageSocialDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FA85A61799486500C72991 /* Debug */,
+				18FA85A71799486500C72991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FA857A1799486500C72991 /* Project object */;
+}
