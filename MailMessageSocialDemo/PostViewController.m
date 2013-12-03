@@ -125,4 +125,19 @@
     }
 }
 
+- (IBAction)whatsApp:(id)sender
+{
+    NSURL *whatsAppURL = [NSURL URLWithString:@"Whatsapp://location?id=1"];
+    
+    if ([[UIApplication sharedApplication] canOpenURL:whatsAppURL])
+    {
+        [[UIApplication sharedApplication] openURL:whatsAppURL];
+    }
+    else
+    {
+        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Oops" message:@"install whatsApp in your device to continue" delegate:Nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alert show];
+    }
+}
+
 @end

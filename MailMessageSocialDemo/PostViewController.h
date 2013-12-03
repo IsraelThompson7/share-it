@@ -16,6 +16,7 @@
 - (IBAction)composeMessage:(id)sender;
 - (IBAction)tweet:(id)sender;
 - (IBAction)postOnFacebook:(id)sender;
+- (IBAction)whatsApp:(id)sender;
 
 
 @end
