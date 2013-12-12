@@ -41,7 +41,16 @@
     [mailComposer setSubject:emailTitle];
     [mailComposer setMessageBody:messageBody isHTML:NO];
     [mailComposer setToRecipients:toRecipents];
-    [self presentViewController:mailComposer animated:YES completion:NULL];
+    if (![MFMailComposeViewController canSendMail])
+    {
+        
+        UIAlertView *warningAlert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Your device doesn't support mail!" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [warningAlert show];
+    }
+    else
+    {
+        [self presentViewController:mailComposer animated:YES completion:NULL];
+    }
 }
 
 - (void) mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error
